@@ -26,8 +26,8 @@ export default function Home() {
     <div className="flex justify-center">
       <div className="relative w-full max-w-sm h-auto overflow-hidden rounded-2xl border-4 border-cyan-500/30 shadow-xl shadow-cyan-500/20 hover:shadow-cyan-400/40 transition-all duration-500">
         <img
-          src="/ceo.jpg" // Replace with your updated CEO image path
-          alt="CEO Rahul Verma"
+          src="/CEO.jpg" // Replace with your updated CEO image path
+          alt="CEO Rahul Chaddha"
           className="object-cover w-full h-full"
         />
       </div>
@@ -48,7 +48,7 @@ export default function Home() {
       {/* Floating Signature */}
       <div className="mt-2">
         <img
-          src="/signature.png" // Transparent PNG of your signature
+          src="/sign.png" // Transparent PNG of your signature
           alt="Rahul Signature"
           className="h-20 w-auto opacity-90 rotate-[-6deg] ml-1 drop-shadow-[0_0_6px_rgba(34,211,238,0.4)]"
         />
