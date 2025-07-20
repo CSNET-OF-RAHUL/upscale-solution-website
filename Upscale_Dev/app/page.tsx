@@ -50,7 +50,7 @@ export default function Home() {
         <img
           src="/sign.png" // Transparent PNG of your signature
           alt="Rahul Signature"
-          className="h-20 w-auto opacity-90 rotate-[-6deg] ml-1 drop-shadow-[0_0_6px_rgba(34,211,238,0.4)]"
+          className="h-32 w-auto opacity-90 rotate-[-6deg] ml-1 drop-shadow-[0_0_6px_rgba(34,211,238,0.4)]"
         />
       </div>
     </div>
