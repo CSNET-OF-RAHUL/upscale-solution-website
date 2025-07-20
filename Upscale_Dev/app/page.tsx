@@ -46,7 +46,7 @@ export default function Home() {
       </p>
 
       {/* Floating Signature */}
-      <div className="mt-2 flex justify-start">
+      <div className="mt-2 flex justify-end">
         <img
           src="/sign.png" // Transparent PNG of your signature
           alt="Rahul Signature"
