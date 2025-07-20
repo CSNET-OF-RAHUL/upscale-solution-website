@@ -34,9 +34,7 @@ export default function RootLayout({
   <body
     className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} antialiased`}
   >
-    <div className="scale-[0.9] origin-top mx-auto">
       {children}
-    </div>
   </body>
 </html>
 
