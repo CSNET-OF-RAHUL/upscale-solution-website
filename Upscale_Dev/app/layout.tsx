@@ -31,11 +31,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
+  <body
+    className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} antialiased`}
+  >
+    <div className="scale-[0.9] origin-top mx-auto">
+      {children}
+    </div>
+  </body>
+</html>
+
   );
 }
