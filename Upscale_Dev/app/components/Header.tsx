@@ -62,10 +62,12 @@ export default function Header() {
           <div className="hidden lg:flex items-center">
             <button className="relative px-6 py-3 bg-transparent border-2 border-blue-400/60 text-blue-400 font-semibold rounded-lg hover:bg-blue-400/10 hover:border-blue-400 hover:text-white transition-all duration-300 transform hover:scale-105 whitespace-nowrap cursor-pointer group overflow-hidden"
               style={{fontFamily: 'Exo, Montserrat, sans-serif'}}>
+              <Link href="#contact" >
               <span className="relative z-10 flex items-center gap-2">
                 <i className="ri-phone-line"></i>
                 Free Consultation
               </span>
+              </Link>
               {/* Pulse animation */}
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400/20 via-violet-400/20 to-cyan-400/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-pulse"></div>
               {/* Neon glow */}
