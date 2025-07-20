@@ -30,7 +30,7 @@ export default function WhyUpscale() {
   }, []);
 
   const startCounterAnimation = () => {
-    const targets = { experience: 5, projects: 50, clients: 100, rating: 100 };
+    const targets = { experience: 15, projects: 50, clients: 50, rating: 100 };
     const duration = 2000;
     const steps = 60;
     const stepDuration = duration / steps;
