@@ -12,7 +12,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section id="hero" className="relative min-h-[110vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 pt-20">
+    <section id="hero" className="relative min-h-[130vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 pt-20">
       {/* Animated background */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-20 left-20 w-72 h-72 bg-cyan-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
