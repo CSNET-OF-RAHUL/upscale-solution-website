@@ -15,9 +15,9 @@ export default function Footer() {
   ];
 
   const quickLinks = [
-    { name: 'About Us', href: '#whyupscale' },
+    { name: 'About Us', href: '#why-upscale' },
     { name: 'Services', href: '#services' },
-    { name: 'Case Studies', href: '#casestudies' },
+    { name: 'Case Studies', href: '#case-studies' },
     { name: 'Contact', href: '#contact' }
   ];
 
