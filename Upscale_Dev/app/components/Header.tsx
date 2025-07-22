@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Logo from './Logo';
+import Logo from './upscale-logo';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
