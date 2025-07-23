@@ -8,6 +8,7 @@ export default function Logo() {
       {/* Neon glow background */}
       <div className="absolute inset-0 rounded-xl blur-2xl opacity-50 z-0 animate-pulse
         bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-400">
+        </div>
       <Image
         src="/logo.png" 
         alt="Upscale Solution Logo"
@@ -16,7 +17,6 @@ export default function Logo() {
         priority
         className="h-auto w-auto max-h-12 object-contain"
       />
-        </div>
     </div>
   );
 }
