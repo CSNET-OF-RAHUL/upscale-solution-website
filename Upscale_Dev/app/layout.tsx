@@ -22,6 +22,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Upscale Solution",
   description: "Created by Go Online Bharat",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
