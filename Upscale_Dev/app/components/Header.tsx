@@ -36,7 +36,7 @@ export default function Header() {
       <nav className="w-full px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0 scale-110 sm:scale-125 lg:scale-150 transition-transform duration-300">
+          <Link href="/" className="flex-shrink-0 scale-125 sm:scale-150 lg:scale-[1.85] transition-transform duration-300">
             <Logo />
           </Link>
 
