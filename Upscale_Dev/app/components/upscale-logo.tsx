@@ -8,8 +8,8 @@ export default function Logo() {
       <Image
         src="/logo.png" 
         alt="Upscale Solution Logo"
-        width={180}
-        height={60}
+        width={240}
+        height={70}
         priority
         className="h-auto w-auto max-h-12 object-contain"
       />
