@@ -1,9 +1,20 @@
 'use client';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { useEffect } from 'react';
 
 export default function TermsAndConditions() {
+  const router = useRouter();
   return (
     <main className="min-h-screen bg-[#0d0d0d] text-gray-300 py-24 px-6">
+      {/* Back Arrow */}
+      <button
+        onClick={() => router.back()}
+        className="absolute top-6 left-6 flex items-center gap-2 text-cyan-400 hover:text-white transition-colors duration-300 group"
+      >
+        <i className="ri-arrow-left-line text-2xl group-hover:translate-x-[-4px] transition-transform"></i>
+        <span className="text-base hidden sm:inline">Back</span>
+      </button>
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-violet-400 to-cyan-400 mb-6">
           Terms & Conditions
