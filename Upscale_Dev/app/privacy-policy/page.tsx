@@ -1,54 +1,53 @@
-// app/privacy-policy/page.tsx
+'use client';
+import Link from 'next/link';
+
 export default function PrivacyPolicy() {
   return (
-    <div className="max-w-4xl mx-auto px-6 py-16 text-gray-300">
-      <h1 className="text-4xl font-bold mb-6 text-blue-400">Privacy Policy</h1>
-      <p className="mb-4 text-sm text-gray-400">Effective Date: July 24, 2025</p>
+    <section className="min-h-screen w-full bg-[#0d0d0d] text-gray-300 py-20 px-6">
+      <div className="max-w-5xl mx-auto">
+        <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-violet-400 to-cyan-400 mb-6">
+          Privacy Policy
+        </h1>
+        <p className="text-sm text-gray-400 mb-10">Effective Date: Jan 01, 2020</p>
 
-      <p className="mb-6">
-        At Upscale Solution, we value your privacy and are committed to protecting your personal information.
-        This Privacy Policy outlines how we collect, use, and protect the information you provide when using our website and services.
-      </p>
+        <div className="space-y-8 text-lg leading-relaxed">
+          <p>
+            At Upscale Solution, we value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and protect the information you provide when using our website and services.
+          </p>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Information We Collect</h2>
-      <ul className="list-disc list-inside mb-6">
-        <li>Personal Information: Name, email address, phone number, company name, etc., submitted via contact forms.</li>
-        <li>Usage Data: Browser type, IP address, pages visited, time spent on site, etc.</li>
-        <li>Cookies: For improving user experience and analytics.</li>
-      </ul>
+          <div>
+            <h2 className="text-2xl font-semibold text-blue-400 mb-2">Information We Collect</h2>
+            <ul className="list-disc list-inside pl-4 space-y-2">
+              <li>Personal Information: Name, email, phone, company name, etc.</li>
+              <li>Usage Data: IP address, browser type, pages visited, time on site.</li>
+              <li>Cookies: For analytics and enhanced UX.</li>
+            </ul>
+          </div>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">How We Use Your Information</h2>
-      <ul className="list-disc list-inside mb-6">
-        <li>To respond to your inquiries or requests.</li>
-        <li>To improve our website and services.</li>
-        <li>To send periodic emails regarding our offerings (only if you opt-in).</li>
-        <li>To comply with legal obligations.</li>
-      </ul>
+          <div>
+            <h2 className="text-2xl font-semibold text-blue-400 mb-2">How We Use Your Information</h2>
+            <ul className="list-disc list-inside pl-4 space-y-2">
+              <li>To respond to inquiries and improve our services.</li>
+              <li>To send updates if you've opted in.</li>
+              <li>To fulfill legal requirements.</li>
+            </ul>
+          </div>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Data Protection</h2>
-      <ul className="list-disc list-inside mb-6">
-        <li>We implement strong security measures to protect your data.</li>
-        <li>Access to personal data is limited to authorized personnel only.</li>
-      </ul>
+          <div>
+            <h2 className="text-2xl font-semibold text-blue-400 mb-2">Your Rights</h2>
+            <p>
+              You may request access, corrections, or deletion of your personal data. You can also opt-out of marketing communications.
+            </p>
+          </div>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Sharing Your Information</h2>
-      <ul className="list-disc list-inside mb-6">
-        <li>We do <strong>not</strong> sell or rent your personal information.</li>
-        <li>We may share information with service providers only when necessary for delivering our services.</li>
-      </ul>
-
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Your Rights</h2>
-      <ul className="list-disc list-inside mb-6">
-        <li>You can request access, update, or deletion of your personal data.</li>
-        <li>You may opt out of marketing communications at any time.</li>
-      </ul>
-
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Changes to This Policy</h2>
-      <p className="mb-6">We reserve the right to update this Privacy Policy. All updates will be posted on this page with a revised effective date.</p>
-
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Contact Us</h2>
-      <p>If you have any questions regarding this policy, please contact us at: <strong>rahul@upscalesolution.com</strong></p>
-    </div>
+          <div>
+            <h2 className="text-2xl font-semibold text-blue-400 mb-2">Contact Us</h2>
+            <p>
+              Questions? Email us at <Link href="mailto:rahul@upscalesolution.com" className="text-cyan-400 hover:underline">rahul@upscalesolution.com</Link>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
-
