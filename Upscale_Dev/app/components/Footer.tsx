@@ -48,7 +48,7 @@ export default function Footer() {
             </div>
 
             {/* Contact info */}
-            <div className="space-y-4">
+            <div className="space-y-4 allow-select">
               <div className="flex items-center gap-3 text-gray-300">
                 <div className="w-10 h-10 flex items-center justify-center bg-gradient-to-r from-cyan-500/20 to-purple-500/20 rounded-lg">
                   <i className="ri-mail-line text-cyan-400"></i>
@@ -56,14 +56,14 @@ export default function Footer() {
                 <span>rahul@upscalesolution.com</span>
               </div>
               
-              <div className="flex items-center gap-3 text-gray-300">
+              <div className="flex items-center gap-3 text-gray-300 allow-select">
                 <div className="w-10 h-10 flex items-center justify-center bg-gradient-to-r from-cyan-500/20 to-purple-500/20 rounded-lg">
                   <i className="ri-phone-line text-cyan-400"></i>
                 </div>
                 <span>+91 9717415206</span>
               </div>
               
-              <div className="flex items-center gap-3 text-gray-300">
+              <div className="flex items-center gap-3 text-gray-300 allow-select">
                 <div className="w-10 h-10 flex items-center justify-center bg-gradient-to-r from-cyan-500/20 to-purple-500/20 rounded-lg">
                   <i className="ri-map-pin-line text-cyan-400"></i>
                 </div>
