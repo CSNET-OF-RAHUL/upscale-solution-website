@@ -1,6 +1,8 @@
 import React from 'react';
-import '../globals.css'; // inherit styles
-import Header from '@/app/components/Header'; // adjust path if different
+import '../globals.css'; 
+import Header from '@/app/components/Header'; 
+import ScrollToTop from './components/ScrollToTop';
+
 
 export default function PrivacyLayout({
   children,
@@ -10,7 +12,10 @@ export default function PrivacyLayout({
   return (
     <>
       <Header />
-      {children}
+      <body className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} antialiased`}>
+  <ScrollToTop />
+  {children}
+</body>
     </>
   );
 }
