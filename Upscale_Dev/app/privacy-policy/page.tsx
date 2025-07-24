@@ -49,7 +49,7 @@ export default function PrivacyPolicy() {
 
         <h2 className="text-2xl font-semibold text-cyan-400 mt-8 mb-4">Contact Us</h2>
         <p>
-          For any questions or concerns regarding your data, please contact us at <span className="text-pink-400">contact@upscalesolution.com</span>.
+          For any questions or concerns regarding your data, please contact us at <Link href="mailto:rahul@upscalesolution.com" className="text-cyan-400 hover:underline">rahul@upscalesolution.com</Link>.
         </p>
       </div>
     </main>
