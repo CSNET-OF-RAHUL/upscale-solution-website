@@ -7,3 +7,13 @@
     zoom: 80%;
   }
 }
+/* Disable text selection everywhere */
+body {
+  user-select: none;
+}
+
+/* Re-enable selection only for contact info */
+.allow-select, .allow-select * {
+  user-select: text !important;
+}
+
