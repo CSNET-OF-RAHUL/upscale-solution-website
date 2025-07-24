@@ -1,6 +1,8 @@
 import React from 'react';
 import '../globals.css';
-import Header from '@/app/components/Header'; // adjust path if needed
+import Header from '@/app/components/Header'; 
+import ScrollToTop from './components/ScrollToTop';
+
 
 export default function TermsLayout({
   children,
@@ -10,7 +12,10 @@ export default function TermsLayout({
   return (
     <>
       <Header />
-      {children}
+      <body className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} antialiased`}>
+  <ScrollToTop />
+  {children}
+</body>
     </>
   );
 }
