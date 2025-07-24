@@ -15,7 +15,10 @@ export default function PrivacyPolicy() {
       </button>
 
       <div className="max-w-4xl mx-auto mt-12">
-        <h1 className="text-4xl font-bold text-white mb-6">Privacy Policy</h1>
+        <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-violet-400 to-cyan-400 mb-6">
+          Privacy Policy
+        </h1>
+        <p className="text-sm text-gray-400 mb-10">Effective Date: Jan 01, 2020</p>
         <p className="mb-4">
           At Upscale Solution, we value your privacy. This policy explains how we handle and protect your information.
         </p>
