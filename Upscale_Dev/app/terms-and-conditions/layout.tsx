@@ -12,10 +12,8 @@ export default function TermsLayout({
   return (
     <>
       <Header />
-      <body className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} antialiased`}>
   <ScrollToTop />
   {children}
-</body>
     </>
   );
 }
